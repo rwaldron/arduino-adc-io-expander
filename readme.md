@@ -11,6 +11,7 @@ The slave board **CANNOT** use the analog inputs that are shared with the `SDA` 
 | Arduino Uno | 6 | `A4`, `A5` | 4 (`A0-A3`) |
 | Arduino Leonardo | 6 | `-` | 6 (`A0-A5`)|
 | Arduino Mega | 6 | `A4`, `A5` | 14 (`A0-A13`) |
+| Arduino Micro | 6 | `-` | 6 (`A0-A5`) |
 | Arduino Nano | 8 | `A4`, `A5` | 6 (`A0-A3`, `A6-A7`) |
 | Arduino Pro Mini | 6 | `A4`, `A5` | 4 (`A0-A3`) |
 | Teensy 3.1 | 10 | `A4`, `A5` | 8 (`A0-A3`, `A6-A7`) |
@@ -68,8 +69,20 @@ There are two internal registers, one for meta information and one for analog da
 | `A14` | `0xAE` | Analog pin `14` LSB |
 
 
-
 \** On most platforms, these are disabled. 
+
+## Diagrams
+
+A few diagrams to show example uses: 
+
+![](https://raw.githubusercontent.com/rwaldron/arduino-adc-io-expander/master/diagrams/arduino-uno-to-uno.png)
+
+![](https://raw.githubusercontent.com/rwaldron/arduino-adc-io-expander/master/diagrams/arduino-uno-to-mega.png)
+
+![](https://raw.githubusercontent.com/rwaldron/arduino-adc-io-expander/master/diagrams/arduino-uno-to-micro.png)
+
+
+
 
 ## License
 

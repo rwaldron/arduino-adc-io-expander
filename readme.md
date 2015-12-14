@@ -52,7 +52,6 @@ There are two internal registers, one for meta information and one for analog da
 |-------|--------|--------------|
 | `NUM_ANALOG_INPUTS` | `0x00` | The number of analog inputs, per board.|
 | `A0` | `0xA0` | Analog pin `0` LSB |
-| `A0` | `0xA0` | Analog pin `0` LSB |
 | `A1` | `0xA1` | Analog pin `1` LSB |
 | `A2` | `0xA2` | Analog pin `2` LSB |
 | `A3` | `0xA3` | Analog pin `3` LSB |
